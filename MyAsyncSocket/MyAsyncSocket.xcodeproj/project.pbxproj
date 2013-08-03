@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF427D4217A9026A0017E051 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF427D4117A9026A0017E051 /* UIKit.framework */; };
+		CF427D4417A9026A0017E051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF427D4317A9026A0017E051 /* Foundation.framework */; };
+		CF427D4617A9026A0017E051 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF427D4517A9026A0017E051 /* CoreGraphics.framework */; };
+		CF427D4C17A9026A0017E051 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF427D4A17A9026A0017E051 /* InfoPlist.strings */; };
+		CF427D4E17A9026A0017E051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF427D4D17A9026A0017E051 /* main.m */; };
+		CF427D5217A9026A0017E051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF427D5117A9026A0017E051 /* AppDelegate.m */; };
+		CF427D5417A9026A0017E051 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF427D5317A9026A0017E051 /* Default.png */; };
+		CF427D5617A9026A0017E051 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF427D5517A9026A0017E051 /* Default@2x.png */; };
+		CF427D5817A9026A0017E051 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF427D5717A9026A0017E051 /* Default-568h@2x.png */; };
+		CF427D6017A902CE0017E051 /* MyAsyncTcpSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CF427D5F17A902CE0017E051 /* MyAsyncTcpSocketClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CF427D6617A903BE0017E051 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CF427D6317A903BE0017E051 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CF427D6717A903BE0017E051 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CF427D6517A903BE0017E051 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CF427D6D17A904460017E051 /* MyAsyncUdpSocketClient1.m in Sources */ = {isa = PBXBuildFile; fileRef = CF427D6C17A904460017E051 /* MyAsyncUdpSocketClient1.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CF58893C17AA9F900071C15B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF58893B17AA9F900071C15B /* CFNetwork.framework */; };
+		CFB6EBA017ACE2A7004DE2A1 /* MyAsyncTcpSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB6EB9F17ACE2A7004DE2A1 /* MyAsyncTcpSocketServer.m */; };
+		CFB6EBA317ACE7BC004DE2A1 /* MyAsyncUdpSocketClient2.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB6EBA217ACE7BC004DE2A1 /* MyAsyncUdpSocketClient2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF427D3E17A9026A0017E051 /* MyAsyncSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAsyncSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF427D4117A9026A0017E051 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF427D4317A9026A0017E051 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF427D4517A9026A0017E051 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF427D4917A9026A0017E051 /* MyAsyncSocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		CF427D4B17A9026A0017E051 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF427D4D17A9026A0017E051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF427D4F17A9026A0017E051 /* MyAsyncSocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAsyncSocket-Prefix.pch"; sourceTree = "<group>"; };
+		CF427D5017A9026A0017E051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF427D5117A9026A0017E051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF427D5317A9026A0017E051 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF427D5517A9026A0017E051 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF427D5717A9026A0017E051 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF427D5E17A902CE0017E051 /* MyAsyncTcpSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAsyncTcpSocketClient.h; sourceTree = "<group>"; };
+		CF427D5F17A902CE0017E051 /* MyAsyncTcpSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAsyncTcpSocketClient.m; sourceTree = "<group>"; };
+		CF427D6217A903BE0017E051 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		CF427D6317A903BE0017E051 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		CF427D6417A903BE0017E051 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		CF427D6517A903BE0017E051 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		CF427D6B17A904460017E051 /* MyAsyncUdpSocketClient1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAsyncUdpSocketClient1.h; sourceTree = "<group>"; };
+		CF427D6C17A904460017E051 /* MyAsyncUdpSocketClient1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAsyncUdpSocketClient1.m; sourceTree = "<group>"; };
+		CF58893B17AA9F900071C15B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CFB6EB9E17ACE2A7004DE2A1 /* MyAsyncTcpSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAsyncTcpSocketServer.h; sourceTree = "<group>"; };
+		CFB6EB9F17ACE2A7004DE2A1 /* MyAsyncTcpSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAsyncTcpSocketServer.m; sourceTree = "<group>"; };
+		CFB6EBA117ACE7BC004DE2A1 /* MyAsyncUdpSocketClient2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAsyncUdpSocketClient2.h; sourceTree = "<group>"; };
+		CFB6EBA217ACE7BC004DE2A1 /* MyAsyncUdpSocketClient2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAsyncUdpSocketClient2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF427D3B17A9026A0017E051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF58893C17AA9F900071C15B /* CFNetwork.framework in Frameworks */,
+				CF427D4217A9026A0017E051 /* UIKit.framework in Frameworks */,
+				CF427D4417A9026A0017E051 /* Foundation.framework in Frameworks */,
+				CF427D4617A9026A0017E051 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF427D3517A9026A0017E051 = {
+			isa = PBXGroup;
+			children = (
+				CF58893B17AA9F900071C15B /* CFNetwork.framework */,
+				CF427D6117A903BE0017E051 /* AsyncSocket */,
+				CF427D4717A9026A0017E051 /* MyAsyncSocket */,
+				CF427D4017A9026A0017E051 /* Frameworks */,
+				CF427D3F17A9026A0017E051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF427D3F17A9026A0017E051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF427D3E17A9026A0017E051 /* MyAsyncSocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF427D4017A9026A0017E051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF427D4117A9026A0017E051 /* UIKit.framework */,
+				CF427D4317A9026A0017E051 /* Foundation.framework */,
+				CF427D4517A9026A0017E051 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF427D4717A9026A0017E051 /* MyAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				CF427D5017A9026A0017E051 /* AppDelegate.h */,
+				CF427D5117A9026A0017E051 /* AppDelegate.m */,
+				CF427D5E17A902CE0017E051 /* MyAsyncTcpSocketClient.h */,
+				CF427D5F17A902CE0017E051 /* MyAsyncTcpSocketClient.m */,
+				CFB6EB9E17ACE2A7004DE2A1 /* MyAsyncTcpSocketServer.h */,
+				CFB6EB9F17ACE2A7004DE2A1 /* MyAsyncTcpSocketServer.m */,
+				CF427D6B17A904460017E051 /* MyAsyncUdpSocketClient1.h */,
+				CF427D6C17A904460017E051 /* MyAsyncUdpSocketClient1.m */,
+				CFB6EBA117ACE7BC004DE2A1 /* MyAsyncUdpSocketClient2.h */,
+				CFB6EBA217ACE7BC004DE2A1 /* MyAsyncUdpSocketClient2.m */,
+				CF427D4817A9026A0017E051 /* Supporting Files */,
+			);
+			path = MyAsyncSocket;
+			sourceTree = "<group>";
+		};
+		CF427D4817A9026A0017E051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF427D4917A9026A0017E051 /* MyAsyncSocket-Info.plist */,
+				CF427D4A17A9026A0017E051 /* InfoPlist.strings */,
+				CF427D4D17A9026A0017E051 /* main.m */,
+				CF427D4F17A9026A0017E051 /* MyAsyncSocket-Prefix.pch */,
+				CF427D5317A9026A0017E051 /* Default.png */,
+				CF427D5517A9026A0017E051 /* Default@2x.png */,
+				CF427D5717A9026A0017E051 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF427D6117A903BE0017E051 /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				CF427D6217A903BE0017E051 /* AsyncSocket.h */,
+				CF427D6317A903BE0017E051 /* AsyncSocket.m */,
+				CF427D6417A903BE0017E051 /* AsyncUdpSocket.h */,
+				CF427D6517A903BE0017E051 /* AsyncUdpSocket.m */,
+			);
+			path = AsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF427D3D17A9026A0017E051 /* MyAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF427D5B17A9026A0017E051 /* Build configuration list for PBXNativeTarget "MyAsyncSocket" */;
+			buildPhases = (
+				CF427D3A17A9026A0017E051 /* Sources */,
+				CF427D3B17A9026A0017E051 /* Frameworks */,
+				CF427D3C17A9026A0017E051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAsyncSocket;
+			productName = MyAsyncSocket;
+			productReference = CF427D3E17A9026A0017E051 /* MyAsyncSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF427D3617A9026A0017E051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = qsji;
+			};
+			buildConfigurationList = CF427D3917A9026A0017E051 /* Build configuration list for PBXProject "MyAsyncSocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF427D3517A9026A0017E051;
+			productRefGroup = CF427D3F17A9026A0017E051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF427D3D17A9026A0017E051 /* MyAsyncSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF427D3C17A9026A0017E051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF427D4C17A9026A0017E051 /* InfoPlist.strings in Resources */,
+				CF427D5417A9026A0017E051 /* Default.png in Resources */,
+				CF427D5617A9026A0017E051 /* Default@2x.png in Resources */,
+				CF427D5817A9026A0017E051 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF427D3A17A9026A0017E051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF427D4E17A9026A0017E051 /* main.m in Sources */,
+				CF427D5217A9026A0017E051 /* AppDelegate.m in Sources */,
+				CF427D6017A902CE0017E051 /* MyAsyncTcpSocketClient.m in Sources */,
+				CF427D6617A903BE0017E051 /* AsyncSocket.m in Sources */,
+				CF427D6717A903BE0017E051 /* AsyncUdpSocket.m in Sources */,
+				CF427D6D17A904460017E051 /* MyAsyncUdpSocketClient1.m in Sources */,
+				CFB6EBA017ACE2A7004DE2A1 /* MyAsyncTcpSocketServer.m in Sources */,
+				CFB6EBA317ACE7BC004DE2A1 /* MyAsyncUdpSocketClient2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF427D4A17A9026A0017E051 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF427D4B17A9026A0017E051 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF427D5917A9026A0017E051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF427D5A17A9026A0017E051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF427D5C17A9026A0017E051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAsyncSocket/MyAsyncSocket-Prefix.pch";
+				INFOPLIST_FILE = "MyAsyncSocket/MyAsyncSocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF427D5D17A9026A0017E051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAsyncSocket/MyAsyncSocket-Prefix.pch";
+				INFOPLIST_FILE = "MyAsyncSocket/MyAsyncSocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF427D3917A9026A0017E051 /* Build configuration list for PBXProject "MyAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF427D5917A9026A0017E051 /* Debug */,
+				CF427D5A17A9026A0017E051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF427D5B17A9026A0017E051 /* Build configuration list for PBXNativeTarget "MyAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF427D5C17A9026A0017E051 /* Debug */,
+				CF427D5D17A9026A0017E051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF427D3617A9026A0017E051 /* Project object */;
+}
